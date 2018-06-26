@@ -1,6 +1,6 @@
 @startuml
 
-title "수강생 Sequence Diagram"
+title "수강생 Use Case Diagram"
 
 /'
 학생 접속 & 투표
