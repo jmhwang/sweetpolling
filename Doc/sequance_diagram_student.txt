@@ -17,6 +17,7 @@ actor 수강생
   note right of 2WT : 투표없음\n투표완료대기
 2WT --> 3PL
   note  left of 3PL :  03-1.OX\n03-2.4지선다\n03-3.문장입력
-3PL --> 4SV
+3PL <--> 4SV
+  note  left of 4SV :  설문종료 전까지\n투표 변경 가능
 4SV --> 2WT
 @enduml
